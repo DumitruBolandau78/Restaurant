@@ -227,6 +227,8 @@ nav a {
     max-width: 1050px;
     text-align: center;
     justify-content: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .our-history-left-bar {

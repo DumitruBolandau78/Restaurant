@@ -1,3 +1,35 @@
 @media (max-width: 884px) {
-    
+    .bar {
+        display: flex;
+        justify-content: space-around;
+        max-width: 884px;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .right-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 60%;
+    }
+
+    nav {
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 50px;
+    }
+
+    .properties-wrapper {
+        max-width: 884px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        right: 40px;
+    }
+
 }
