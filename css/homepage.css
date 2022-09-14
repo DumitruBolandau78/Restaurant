@@ -42,6 +42,10 @@ header {
     align-items: center;
 }
 
+.left-bar {
+    padding: 20px 0 0 20px;
+}
+
 .logo {
     width: 100px;
     display: flex;
@@ -50,6 +54,10 @@ header {
 .logo img:last-child {
     position: relative;
     right: 40px;
+}
+
+.media-menu {
+    display: none;
 }
 
 nav {
@@ -222,6 +230,11 @@ nav a {
     height: 100%;
 }
 
+/* our-history ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+
 .our-history-wrapper {
     display: flex;
     max-width: 1050px;
@@ -307,32 +320,11 @@ nav a {
 .our-history-right-bar {
     width: 50%;
     display: flex;
+    margin-left: 70px;
 }
 
-.image1 {
-    position: relative;
-    left: 300px;
-    top: 40px;
-    z-index: 1;
-}
-
-.image2 {
-    position: relative;
-    z-index: 2;
-}
-
-.image3 {
-    position: relative;
-    right: 150px;
-    top: 200px;
-    z-index: 3;
-}
-
-.image4 {
-    position: relative;
-    right: 700px;
-    top: 30px;
-    z-index: 4;
+.our-history-right-bar-image img{
+    width: 100%;
 }
 
 .reserve-a-table {
@@ -374,7 +366,7 @@ nav a {
 .reserve-a-table-right-bar {
     width: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -419,12 +411,20 @@ nav a {
     margin-right: 15px;
 }
 
+.our-food-body-left-bar img{
+    width: 100%;
+}
+
 .our-food-body-right-bar {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 15px;
+}
+
+.food-image img {
+    width: 100%;
 }
 
 .food-body {
@@ -455,6 +455,7 @@ nav a {
 
 .our-menu-wrapper-inner {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -468,6 +469,7 @@ nav a {
 
 .our-menu-body-paper-image img{
     border-radius: 50%;
+    width: 100%;
 }
 
 .our-menu-body-paper-price {
@@ -490,10 +492,12 @@ nav a {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 1200px;
 }
 
 .our-menu-paper-body {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     min-height: 510px;
     height: 100%;
     background-color: white;
@@ -502,11 +506,34 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+.our-menu-paper-recomandation {
+    display: flex;
+    width: 100%;
+}
+
+.our-menu-paper-recomandation button {
+    padding: 7px 11px;
+    background-color: #D67E34;
+    border: 1px solid #D67E34;
+    margin-bottom: 30px;
+}
+
+#button-hidden {
+    visibility: hidden;
 }
 
 .our-menu-body-paper-top-bar {
     margin-bottom: -50px;
+}
+
+.our-menu-body-paper-image {
+    margin: 0 10px;
+}
+
+.our-menu-body-paper-image img {
+    width: 225px;
 }
 
 .our-menu-body-paper-bottom-bar {
@@ -602,6 +629,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 10px;
 }
 
 .food-galery-title {
@@ -616,18 +644,19 @@ nav a {
 .food-galery-images {
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
 }
 
-.food-galery-images img {
-    height: 80%;
+.food-galery-image {
+    margin: 5px 10px;
+}
+
+.food-galery-image img{
+    width: 100%;
 }
 
 .food-galery-images:last-child {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row-reverse;
-    margin-top: -35px;
 }
 
 .our-cooks {
@@ -651,8 +680,12 @@ nav a {
     width: 90%;
 }
 
+.our-cook-image {
+    margin: 0 5px;
+}
+
 .our-cook-images img {
-    height: 80%;
+    width: 100%
 }
 
 .background-final {
