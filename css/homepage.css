@@ -34,6 +34,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-position: center;
 }
 
 .bar {
@@ -138,11 +139,11 @@ nav a {
 .main-title {
     color: #D67E35;
     text-align: center;
-    font-size: 40px;
+    font-size: clamp(20px, 5vw, 40px);
 }
 
 .main-title div {
-    font-size: 70px;
+    font-size: clamp(25px, 9vw, 70px);
 }
 
 .subtitle {
@@ -253,7 +254,7 @@ nav a {
 }
 
 .our-history-left-bar-title {
-    font-size: 40px;
+    font-size: clamp(25px, 5vw, 40px);
     margin-bottom: 30px;
 }
 
@@ -277,7 +278,7 @@ nav a {
 
 .number-of-food {
     display: flex;
-    font-size: 35px;
+    font-size: clamp(25px, 5vw, 35px);
     color: #BC9060;
     width: 100%;
     justify-content: space-evenly;
@@ -294,7 +295,7 @@ nav a {
 
 .title-of-food {
     display: flex;
-    font-size: 20px;
+    font-size: clamp(16px, 5vw, 20px);
     width: 100%;
     justify-content: space-evenly;
 }
@@ -338,6 +339,7 @@ nav a {
     margin-top: 180px;
     display: flex;
     justify-content: center;
+    background-position: center;
 }
 
 .reserve-a-table-left-bar {
@@ -350,14 +352,14 @@ nav a {
 }
 
 .reserve-a-table-left-bar-title {
-    font-size: 40px;
+    font-size: clamp(25px, 5vw, 40px);
     color: #D67E34;
     font-family: 'Tinos';
 }
 
 .reserve-a-table-left-bar-subtitle {
     color: white;
-    font-size: 23px;
+    font-size: clamp(17px, 5vw, 23px);
     font-weight: bolder;
     letter-spacing: 1px;
     margin-top: 20px;
@@ -390,8 +392,9 @@ nav a {
 }
 
 .our-food-title {
-    font-size: 40px;
+    font-size: clamp(25px, 5vw, 40px);
     margin: 100px 0;
+    text-align: center;
 }
 
 .our-food-title span {
@@ -451,6 +454,7 @@ nav a {
     padding-top: 100px;
     display: flex;
     justify-content: center;
+    background-position: center;
 }
 
 .our-menu-wrapper-inner {
@@ -618,6 +622,7 @@ nav a {
 
 .comment-pages i {
     transform: scale(1.3);
+    margin: 0 5px;
 }
 
 .comment-pages a:last-child i:last-child {
@@ -633,8 +638,8 @@ nav a {
 }
 
 .food-galery-title {
-    font-size: 40px;
-    margin: 70px 0 50px 0;
+    font-size: clamp(20px, 5vw, 40px);
+    margin: 40px 0 30px 0;
 }
 
 .food-galery-title span {
@@ -666,7 +671,7 @@ nav a {
 }
 
 .our-cook-title {
-    font-size: 40px;
+    font-size: clamp(20px, 5vw, 40px);
     margin: 20px 0 50px 0;
 }
 
@@ -695,4 +700,5 @@ nav a {
     max-width: 1366px;
     width: 100%;
     height: 694px;
+    background-position: center;
 }
