@@ -182,7 +182,9 @@
     }
 
     .menu-bar-show {
-        background-color: #34568B;
+        background-color: #382800;
+background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
         height: 100vh;
         width: 80%;
         position: fixed;
