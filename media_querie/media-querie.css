@@ -207,12 +207,50 @@
         justify-content: space-around;
         text-align: center;
         height: 40vh;
+        position: relative;
+        top: 40px;
     }
 
     .menu-bar-show-nav a {
         text-decoration: none;
         color: white;
         font-size: 20px;
+    }
+
+    .menu-bar-show-phone-number {
+        display: flex;
+        font-size: clamp(15px, 7vw, 23px);
+        position: fixed;
+        top: 80px;
+        text-align: center;
+        padding: 0 10px;
+        color: white;
+    }
+
+    .menu-bar-show-icon {
+        margin-right: 10px;
+    }
+
+    .menu-bar-show-btn-reservation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-bar-show-btn-reservation button {
+        background-color: #FF7400;
+        padding: 7px 10px;
+        border: 1px solid #FF7400;
+        position: fixed;
+        bottom: 50px;
+        color: white;
+    }
+
+    .menu-bar-show-contact-title {
+        font-size: clamp(18px, 7vw, 23px);
+        text-align: center;
+        color: white;
+        position: fixed;
+        top: 120px;
     }
 
     .header-container {
