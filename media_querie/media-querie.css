@@ -276,8 +276,7 @@
     }
 
     .paper:hover {
-        position: relative;
-        bottom: 100px;
+        transform: translateY(0);
     }
 
     .paper-text {

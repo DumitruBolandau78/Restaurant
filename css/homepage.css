@@ -205,15 +205,14 @@ nav a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     margin: 0 10px;
-    transition: 0.3s;
+    transition: 0.5s;
     position: relative;
     bottom: 100px;
     padding-bottom: 40px;
 }
 
 .paper:hover {
-    position: relative;
-    bottom: 140px;
+    transform: translateY(-40px);
 }
 
 .paper-title {
