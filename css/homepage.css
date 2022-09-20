@@ -110,10 +110,12 @@ nav a {
     display: flex;
     justify-content: center;
     margin-right: 20px;
+    font-size: 23px;
+    transition: 0.3s;
 }
 
 .bought a:hover {
-    transform: scale(1.7);
+    transform: scale(1.1);
 }
 
 .btn-reservation button {
@@ -122,6 +124,12 @@ nav a {
     color: white;
     font-weight: bold;
     border: 1px solid #FF7400;
+    transition: 0.5 ease;
+}
+
+.btn-reservation button:active {
+    background: #883d00;
+    background-blend-mode: darken;
 }
 
 .header-container {
@@ -170,6 +178,11 @@ nav a {
     text-transform: uppercase;
     margin-top: 20px;
     border: 1px solid #FF7400;
+}
+
+.btn-view-menu button:active {
+    background: #883d00;
+    background-blend-mode: darken;
 }
 
 /* mid-page-start-of-here ////////////////////////////////////////////////////////////
@@ -381,6 +394,11 @@ nav a {
     left: 100px;
 }
 
+.reserve-a-table-right-bar button:active {
+    background: #883d00;
+    background-blend-mode: darken;
+}
+
 .our-food-wrapper {
     display: flex;
     flex-direction: column;
@@ -566,6 +584,13 @@ nav a {
     border: 1px solid #D67E34;
     font-weight: bolder;
 }
+
+
+.our-menu-body-paper-bottom-bar-btn button:active {
+    background: #883d00;
+    background-blend-mode: darken;
+}
+
 
 .comment-container {
     max-width: 1366px;
