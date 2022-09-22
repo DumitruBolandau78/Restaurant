@@ -124,7 +124,6 @@ nav a {
     color: white;
     font-weight: bold;
     border: 1px solid #FF7400;
-    transition: 0.5 ease;
 }
 
 .btn-reservation button:active {
