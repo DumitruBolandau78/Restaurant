@@ -238,11 +238,15 @@
 
     .menu-bar-show-btn-reservation button {
         background-color: #FF7400;
-        padding: 7px 10px;
+        padding: 10px 20px;
         border: 1px solid #FF7400;
         position: fixed;
         bottom: 50px;
         color: white;
+    }
+
+    .menu-bar-show-btn-reservation button:active {
+        background-color: #914100;
     }
 
     .menu-bar-show-contact-title {
