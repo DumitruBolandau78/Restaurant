@@ -221,6 +221,7 @@ nav a {
     position: relative;
     bottom: 100px;
     padding-bottom: 40px;
+    min-width: 200px;
 }
 
 .paper:hover {
